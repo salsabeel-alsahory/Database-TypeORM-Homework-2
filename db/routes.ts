@@ -1,7 +1,7 @@
 
 import { Router } from 'express';
 import UserController from './controllers/UserController';
-import PermissionController from './controllers/PermissionController';
+import PermissionController from './controllers/user';
 import RoleController from './controllers/RoleController';
 
 const router = Router();
